@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Inter", sans-serif;
+  background-color: black;
+  color: white;
+  max-width: 1060px;
+  margin: 0 auto;
+}
+/* shared style */
+.display-flex {
+  display: flex;
+}
+.paragraph {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+}
+.anchor {
+  text-decoration: none;
+}
+/* header */
+.header-nav {
+  align-items: center;
+}
+.Fitness {
+  font-size: 2.25rem;
+  font-weight: bolder;
+  font-style: italic;
+  color: #e6533c;
+}
+.unorderlist {
+  list-style: none;
+  gap: 47px;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 39px;
+  padding-right: 20px;
+}
+.unorderlist a {
+  color: white;
+  text-decoration: none;
+}
+.Home {
+  font-size: 18px;
+  background-color: #e6533c;
+  padding: 8px 20px;
+  border-radius: 46px;
+}
+nav {
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 58px;
+}
+.hamburger-icon {
+  display: none;
+}
+/* bannner */
+.banner-heading {
+  font-size: 4.875rem;
+  font-weight: 800;
+  margin-top: 96px;
+}
+.miama {
+  font-family: "Miama", sans-serif;
+  font-size: 8.875rem;
+  font-weight: 500;
+  padding: 0;
+}
+.btn-join {
+  font-size: 18px;
+  padding: 16px 46.5px;
+  background-color: #e6533c;
+  border-radius: 42px;
+  border: none;
+  margin-right: 10px;
+  border: 2px solid #e6533c;
+}
+.btn-download {
+  font-size: 18px;
+  padding: 16px 46.5px;
+  background-color: black;
+  border-radius: 42px;
+  border: 2px solid white;
+}
+.btn-anchor {
+  color: white;
+  text-decoration: none;
+}
+.p-1 {
+  padding: 28px 0;
+}
+/* banner image */
+.first-image {
+  margin-top: 32px;
+  margin-left: 180px;
+  padding-top: 30px;
+  width: 55%;
+}
+.red-ball {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #e6533c;
+  margin: 28px 12px 28px 23px;
+}
+.bg {
+  background-color: rgba(48, 48, 48, 0.84);
+  width: 200px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.three {
+  padding-top: 23px;
+  padding-bottom: 5px;
+  color: white;
+  font-weight: 800;
+}
+.five {
+  padding-top: 23px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  color: white;
+  font-weight: 800;
+}
+.v-des {
+  padding-left: 30px;
+  padding-bottom: 15px;
+}
+.btn-one {
+  margin-left: 70px;
+  margin-top: -170px;
+  z-index: 1;
+  position: relative;
+}
+.btn-two {
+  margin-left: 410px;
+  margin-top: -370px;
+  z-index: 1;
+  position: relative;
+}
+
+@media screen and (max-width: 576px) {
+  * {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  /* responsive navbar */
+
+  .hamburger-icon {
+    display: block;
+  }
+  .unorderlist {
+    display: none;
+  }
+  /* responsive banner */
+  .banner {
+    flex-direction: column;
+    margin-left: -100px;
+  }
+  .banner-heading {
+    font-size: 36px;
+    margin-left: 100px;
+  }
+  .miama {
+    font-size: 50px;
+    margin-left: 2px;
+  }
+  .p-1 {
+    margin-left: 100px;
+  }
+  .btn-join {
+    font-size: 16px;
+    padding: 16px 20px;
+    background-color: #e6533c;
+    border-radius: 42px;
+    border: none;
+    border: 2px solid #e6533c;
+    margin-left: 80px;
+    display: inline;
+  }
+  .btn-download {
+    font-size: 16px;
+    padding: 16px 20px;
+    background-color: black;
+    border-radius: 42px;
+    border: 2px solid white;
+    margin-left: 300px;
+  }
+  .da {
+    margin-left: 20px;
+  }
+  .first-image {
+    width: 80%;
+    margin-left: 80px;
+    margin-top: 50px;
+  }
+  .btn-one {
+    margin-left: 90px;
+    padding: 0;
+    margin-top: -250px;
+    align-items: center;
+    width: 220px;
+  }
+  .red-ball {
+    height: 40px;
+    width: 43px;
+    border-radius: 50%;
+    background-color: #e6533c;
+    margin: 21px 0px 21px 17px;
+  }
+  .three {
+    padding: 0;
+    margin-bottom:-10px ;
+    margin-left: 0px;
+  }
+  .vt {
+    margin-top: -100px;
+    padding: 0;
+    margin: 0;
+  }
+  .five{
+    padding: 0;
+    margin-bottom: -10px;
+  }
+  .v-des{
+    margin: 0;
+    margin-left: -10px;
+    padding-bottom: 2px;
+  }
+  .btn-two{
+    margin-top: -400px;
+    margin-left: 270px;
+  }
+}
