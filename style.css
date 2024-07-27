@@ -7,8 +7,6 @@ body {
   font-family: "Inter", sans-serif;
   background-color: black;
   color: white;
-  max-width: 1060px;
-  margin: 0 auto;
 }
 /* shared style */
 .display-flex {
@@ -20,6 +18,12 @@ body {
 }
 .anchor {
   text-decoration: none;
+}
+
+header,.habit,.habit-items,.extra-run,.bmi-text{
+  
+  max-width: 1060px;
+  margin: 0 auto;
 }
 /* header */
 .header-nav {
@@ -155,7 +159,7 @@ nav {
 }
 .habit-style{
   font-size: 48px;
-  font-weight: bold;
+  font-weight: 900;
   margin-top: 95px;
 }
 .habit-des{
@@ -209,6 +213,46 @@ nav {
 }
 .none-break{
   display: none;
+}
+/* BMI section */
+.bmi-form-1{
+  
+  max-width: 1060px;
+  margin: 0 auto;
+}
+.bmi-heading{
+  margin-left: 170px;
+}
+.bmi-des{
+  margin: 14px 157px 80px 170px;
+}
+.bmi-form{
+  background-color:#222222;
+  margin: 0 auto;
+}
+.bmi-heading1{
+  font-size: 28px;
+  font-weight: 900;
+  padding: 50px 0 50px 0;
+}
+table,th,td{
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  text-align: left;
+  border-collapse: collapse;
+}
+th{
+  font-size: 16px;
+  font-weight: 500;
+}
+td{
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+}
+table{
+  max-width: 1310px;
+  height: 216px;
 }
 
 
