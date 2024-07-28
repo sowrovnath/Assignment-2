@@ -20,8 +20,13 @@ body {
   text-decoration: none;
 }
 
-header,.habit,.habit-items,.extra-run,.bmi-text{
-  
+header,
+.habit,
+.habit-items,
+.extra-run,
+.bmi-text,
+.course-heading,
+.courses{
   max-width: 1060px;
   margin: 0 auto;
 }
@@ -66,7 +71,7 @@ nav {
   font-size: 4.875rem;
   font-weight: 800;
   margin-top: 96px;
-  line-height:5.8rem ;
+  line-height: 5.8rem;
 }
 .miama {
   font-family: "Miama", sans-serif;
@@ -83,14 +88,13 @@ nav {
   font-size: 18px;
   margin-right: 25px;
 }
-.btn-download{
+.btn-download {
   padding: 16px 41px;
   color: white;
   background-color: black;
   border-radius: 42px;
   border: 2px solid white;
   font-size: 18px;
-
 }
 .p-1 {
   padding: 28px 0;
@@ -147,137 +151,137 @@ nav {
   padding-bottom: 5px;
 }
 /* habit */
-.habit-items{
+.habit-items {
   gap: 40px;
   margin-top: 58px;
 }
-.habit-item{
+.habit-item {
   text-align: center;
 }
-.habit{
+.habit {
   text-align: center;
 }
-.habit-style{
+.habit-style {
   font-size: 48px;
   font-weight: 900;
   margin-top: 95px;
 }
-.habit-des{
+.habit-des {
   margin: 14px 0;
 }
-.habit-heading{
+.habit-heading {
   font-size: 18px;
   font-weight: 600;
   padding: 30px 0 6px 0;
 }
-.habit-item-image{
+.habit-item-image {
   border-radius: 50%;
 }
-.habit-item-des{
+.habit-item-des {
   margin-top: 5px;
-
 }
 /* extra run section */
-.extra-run{
+.extra-run {
   margin-top: 100px;
   margin-bottom: 100px;
-  background-color:#222222;
+  background-color: #222222;
   border-radius: 18px;
 }
-.extra-run-img{
+.extra-run-img {
   width: 340px;
   height: 312px;
   border-radius: 18px;
   margin: 30px 0px 30px 180px;
   margin-right: 0px;
 }
-.run-des{
+.run-des {
   padding-left: 50px;
   margin: 15px 0 35px 0;
   padding-right: 13px;
   justify-content: start;
 }
-.run-heading{
+.run-heading {
   padding-left: 50px;
   margin-top: 40px;
 }
-.btn-run{
+.btn-run {
   margin-left: 50px;
   margin-bottom: 40px;
   padding: 16px 51px;
-
 }
-.none-img{
+.none-img {
   display: none;
   margin-bottom: 19px;
 }
-.none-break{
+.none-break {
   display: none;
 }
 /* BMI section */
-.bmi-form-1{
-  
+.bmi-form-1 {
   max-width: 1060px;
   margin: 0 auto;
 }
-.bmi-heading{
+.bmi-heading {
   margin-left: 170px;
 }
-.bmi-des{
+.bmi-des {
   margin: 14px 157px 80px 170px;
 }
-.bmi-form{
-  background-color:#222222;
+.bmi-form {
+  background-color: #222222;
   margin: 0 auto;
 }
-.bmi-heading1{
+.bmi-heading1 {
   font-size: 28px;
   font-weight: 900;
   padding: 50px 0 50px 0;
 }
-table,th,td{
+table,
+th,
+td {
   border: 1px solid rgba(255, 255, 255, 0.1);
   padding: 15px;
   text-align: left;
   border-collapse: collapse;
 }
-th{
+th {
   font-size: 16px;
   font-weight: 500;
 }
-td{
+td {
   font-size: 14px;
   color: rgba(255, 255, 255, 0.5);
   font-weight: 400;
 }
-.bmi-calculate{
-max-width: 600px;
-margin-left: 160px;
+.bmi-calculate {
+  max-width: 600px;
+  margin-left: 160px;
 }
-.bmi-chart{
+.bmi-chart {
   max-width: 500px;
 }
-.bmi-des2{
+.bmi-des2 {
   margin-top: -30px;
   margin-bottom: 40px;
 }
-.display-grid{
+.display-grid {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 10px;
 }
-.form{
+.form {
   padding: 13px 80px 13px 20px;
 }
-.form-sex{
+.form-sex {
   padding: 13px 204px 13px 20px;
-
 }
-.form-activity{
+.form-activity {
   padding: 13px 393px 13px 20px;
   margin-top: 10px;
 }
-.form-activity,.form-sex,.form{
+.form-activity,
+.form-sex,
+.form {
   font-size: 16px;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.6);
@@ -285,21 +289,66 @@ margin-left: 160px;
   border: none;
   border-radius: 8px;
 }
-.btn-bmi{
+.btn-bmi {
   padding: 16px 65px;
   margin-top: 30px;
+}
+/* course description */
+.course-heading{
+  text-align: center;
+}
+.course{
+  border: 2px solid #222222;
+  background-color: #222222;
+  display: inline-block;
+  border-radius: 18px;
+  margin-top: 55px;
+}
+.middle-course{
+  margin: 55px 50px 0 50px;
+}
+.course-name{
+  padding: 30px 0px 10px 0px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 800;
+
+}
+.course-fee{
+  font-size: 3rem;
+  color: #e6533c;
+  padding: 0 80px  0px 80px ;
+  font-weight: 800;
+}
+.single-class{
+  
+  padding: 0px 0px 30px 0px;
+  text-align: center;
+  font-size: 1.4rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+.course-item{
+  list-style: none;
+  padding: 10px 0 ;
+  text-align: center;
+}
+.btn-enroll{
+  margin-top: 40px;
+}
+.fee-plan-des{
+  margin: 15px 120px;
 }
 
 
 
 
 
+
 @media screen and (max-width: 576px) {
-   *{
+  * {
     margin-left: 10px;
     margin-right: 10px;
-
-   }
+  }
   /* responsive navbar */
 
   .hamburger-icon {
@@ -316,8 +365,7 @@ margin-left: 160px;
   .banner-heading {
     font-size: 36px;
     margin-left: 100px;
-    line-height:3rem ;
-
+    line-height: 3rem;
   }
   .miama {
     font-size: 50px;
@@ -326,15 +374,15 @@ margin-left: 160px;
   .p-1 {
     margin-left: 100px;
   }
-  .btn-join{
+  .btn-join {
     margin-left: 100px;
     margin-bottom: 20px;
   }
-  .btn-download{
+  .btn-download {
     margin-left: 100px;
     padding: 16px 43px;
   }
-  
+
   .first-image {
     width: 80%;
     margin-top: 50px;
@@ -370,107 +418,137 @@ margin-left: 160px;
   }
   .v-des {
     margin: 0;
-    padding-left:12px ;
+    padding-left: 12px;
     padding-bottom: 2px;
   }
   .btn-two {
     margin-top: -430px;
-    margin-left: 260px;
+    margin-left: 290px;
     margin-right: 90px;
     width: 170px;
   }
   /* habit item */
-  .habit{
-    margin-top:600px ;
+  .habit {
+    margin-top: 600px;
   }
-  .habit-items{
+  .habit-items {
     flex-direction: column;
     margin: auto;
   }
-  .habit-style{
+  .habit-style {
     font-size: 31px;
     font-weight: 800;
     margin-top: -70px;
   }
-  .habit-item-des{
+  .habit-item-des {
     width: 220px;
     margin: 0 auto;
     margin-top: 5px;
   }
 
   /* Extra run section */
-  .extra-run{
+  .extra-run {
     flex-direction: column;
   }
-  .none-img{
+  .none-img {
     display: block;
     width: 85%;
     border-radius: 20px;
     margin: 20px auto;
     margin-bottom: 35px;
   }
-  .extra-run-img{
+  .extra-run-img {
     display: none;
   }
-  .run-heading{
+  .run-heading {
     margin-top: 40px;
     padding-left: 20px;
   }
-  .run-des{
+  .run-des {
     padding-left: 30px;
-
   }
-  .btn-run{
-    margin-left: 30px ;
+  .btn-run {
+    margin-left: 30px;
     padding: 16px 75px;
   }
-  .run-section-break{
+  .run-section-break {
     display: none;
   }
-  .none-break{
+  .none-break {
     display: block;
   }
   /* BMI section */
-  .bmi-form-1{
+  .bmi-form-1 {
     flex-direction: column;
   }
-  .bmi-heading{
-    margin-left:0px;
+  .bmi-heading {
+    margin-left: 0px;
   }
-  .bmi-des{
+  .bmi-des {
     margin: 14px 0px 80px 0px;
   }
-  .bmi-calculate{
-  width: 330px;
-  margin-left: 10px;
+  .bmi-calculate {
+    width: 330px;
+    margin-left: 10px;
   }
-  .bmi-form{
+  .bmi-form {
     width: 425px;
     margin-left: -30px;
   }
-  .bmi-form-1{
+  .bmi-form-1 {
     margin-left: 10px;
   }
-  .form{
+  .form {
     padding: 13px 0px 13px 20px;
     width: 175px;
   }
-  .form-width,.form-sex{
+  .form-width,
+  .form-sex {
     margin-left: -50px;
   }
-  .form-sex{
+  .form-sex {
     padding: 13px 85px 13px 20px;
-  
   }
-  .form-activity{
+  .form-activity {
     padding: 13px 155px 13px 20px;
     margin-top: 10px;
     margin-left: 20px;
   }
-  form{
+  form {
     margin-left: -31px;
   }
-  .btn-bmi{
+  .btn-bmi {
     margin-left: 10px;
+  }
+  /* course details */
+  .courses{
+    flex-direction: column;
+    margin-bottom: 150px;
+
+  }
+  .middle-course,.course{
+    margin: 0;
+    margin-top: 50px;
+  }
+  .fee-plane-heading{
+    text-align: left;
+    font-size:28px;
+    margin-left: 0;
+    margin-top: 10px;
+    margin-bottom: -15px;
+  }
+  .fee-plan-des{
+    margin: 30px 0;
+    margin-right: 18px;
+    text-align: left;
+  }
+  .course-fee{
+    text-align: center;
+    padding-left: 80px;
+    margin-top: 20px;
+  }
+  .btn-enroll{
+    margin-left: 56px;
+    margin-bottom: 40px;
   }
 }
