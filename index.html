@@ -137,7 +137,7 @@
         </p>
       </section>
       <section class="bmi-form">
-        <div class="bmi-form-1">
+        <div class="bmi-form-1 display-flex">
           <div class="bmi-chart">
             <h5 class="bmi-heading1">BMI Calculator Chart</h5>
             <table>
@@ -167,7 +167,70 @@
               </tbody>
             </table>
           </div>
-          <div class="bmi-calculate"></div>
+          <div class="bmi-calculate">
+            <h5 class="bmi-heading1">Calculate your BMI</h5>
+            <p class="paragraph bmi-des2">
+              We believe fitness should be accessible to everyone, everywhere,
+              regardless of income or access to a gym.
+            </p>
+            <form>
+              <div class="display-grid">
+                <div>
+                  <label for="height">
+                    <input
+                      type="number"
+                      id="height"
+                      class="form"
+                      placeholder="Height/cm"
+                    />
+                  </label>
+                </div>
+                <div>
+                  <label for="width">
+                    <input
+                      type="number"
+                      id="width"
+                      class="form form-width"
+                      placeholder="width/kg"
+                    />
+                  </label>
+                </div>
+                <div>
+                  <label for="age">
+                    <input
+                      type="number"
+                      id="age"
+                      class="form"
+                      placeholder="age"
+                    />
+                  </label>
+                </div>
+                <div>
+                  <label for="sex">
+                    <select name="sex" id="sex" class="form-sex">
+                      <option value="">Sex</option>
+
+                      <option value="">Male</option>
+                      <option value="">female</option>
+                    </select>
+                  </label>
+                </div>
+              </div>
+              <div>
+                <label for="sex">
+                  <select name="sex" id="sex" class="form-activity">
+                    <option value="">Select an activity factor</option>
+
+                    <option value="">Male</option>
+                    <option value="">female</option>
+                  </select>
+                </label>
+              </div>
+            </form>
+            <button class="btn-join btn-bmi">Calculate</button>
+
+
+          </div>
         </div>
       </section>
     </main>

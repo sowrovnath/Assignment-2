@@ -250,21 +250,56 @@ td{
   color: rgba(255, 255, 255, 0.5);
   font-weight: 400;
 }
-table{
-  max-width: 1310px;
-  height: 216px;
+.bmi-calculate{
+max-width: 600px;
+margin-left: 160px;
+}
+.bmi-chart{
+  max-width: 500px;
+}
+.bmi-des2{
+  margin-top: -30px;
+  margin-bottom: 40px;
+}
+.display-grid{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 10px;
+}
+.form{
+  padding: 13px 80px 13px 20px;
+}
+.form-sex{
+  padding: 13px 204px 13px 20px;
+
+}
+.form-activity{
+  padding: 13px 393px 13px 20px;
+  margin-top: 10px;
+}
+.form-activity,.form-sex,.form{
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 8px;
+}
+.btn-bmi{
+  padding: 16px 65px;
+  margin-top: 30px;
 }
 
 
 
 
 
-
 @media screen and (max-width: 576px) {
-  * {
+   *{
     margin-left: 10px;
     margin-right: 10px;
-  }
+
+   }
   /* responsive navbar */
 
   .hamburger-icon {
@@ -370,9 +405,9 @@ table{
   .none-img{
     display: block;
     width: 85%;
-    margin-left: 8px;
-    margin: 20px 20px;
     border-radius: 20px;
+    margin: 20px auto;
+    margin-bottom: 35px;
   }
   .extra-run-img{
     display: none;
@@ -395,5 +430,47 @@ table{
   .none-break{
     display: block;
   }
-
+  /* BMI section */
+  .bmi-form-1{
+    flex-direction: column;
+  }
+  .bmi-heading{
+    margin-left:0px;
+  }
+  .bmi-des{
+    margin: 14px 0px 80px 0px;
+  }
+  .bmi-calculate{
+  width: 330px;
+  margin-left: 10px;
+  }
+  .bmi-form{
+    width: 425px;
+    margin-left: -30px;
+  }
+  .bmi-form-1{
+    margin-left: 10px;
+  }
+  .form{
+    padding: 13px 0px 13px 20px;
+    width: 175px;
+  }
+  .form-width,.form-sex{
+    margin-left: -50px;
+  }
+  .form-sex{
+    padding: 13px 85px 13px 20px;
+  
+  }
+  .form-activity{
+    padding: 13px 155px 13px 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  form{
+    margin-left: -31px;
+  }
+  .btn-bmi{
+    margin-left: 10px;
+  }
 }
