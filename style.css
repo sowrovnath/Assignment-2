@@ -26,7 +26,8 @@ header,
 .extra-run,
 .bmi-text,
 .course-heading,
-.courses{
+.courses,
+.trainer-imgs{
   max-width: 1060px;
   margin: 0 auto;
 }
@@ -230,6 +231,8 @@ nav {
 .bmi-form {
   background-color: #222222;
   margin: 0 auto;
+  margin-bottom: 100px;
+  padding-bottom: 40px;
 }
 .bmi-heading1 {
   font-size: 28px;
@@ -338,8 +341,34 @@ td {
 .fee-plan-des{
   margin: 15px 120px;
 }
-
-
+/* Trainer section */
+.trainer-heading,.trainer-des{
+  text-align: center;
+  margin: 10px 0;
+}
+.trainer-imgs{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  border: 2px solid #222222;
+  border-radius: 18px;
+  background-color: #222222;
+  padding: 20px;
+  margin: auto;
+  gap: 17px;
+}
+.trainer-img{
+  width: 100%;
+  border-radius: 18px;
+}
+.trainer-name{
+  font-size: 20px;
+  font-weight: 800;
+  margin-top: -55px;
+  margin-left: 15px;
+}
+.trainer-position{
+  margin-left: 15px;
+}
 
 
 
@@ -550,5 +579,31 @@ td {
   .btn-enroll{
     margin-left: 56px;
     margin-bottom: 40px;
+  }
+  .trainer-imgs{
+    grid-template-columns: repeat(1,1fr);
+    margin: auto;
+    padding-left: 0px;
+    padding-top: 4px;
+    padding-bottom: 20px;
+
+  }
+  .img-3{
+    margin-top: 13px;
+  }
+  .img-5{
+    margin-top: -5px;
+  }
+  .img-6{
+    margin-top: 13px;
+  }
+  .img-4,
+  .img-1,
+  .trainer-none{
+    display: none;
+  }
+  
+  .trainer-position,.trainer-name{
+    margin-left: 25px;
   }
 }
