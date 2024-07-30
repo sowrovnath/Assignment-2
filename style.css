@@ -27,7 +27,9 @@ header,
 .bmi-text,
 .course-heading,
 .courses,
-.trainer-imgs{
+.trainer-imgs,
+.footer1,
+hr {
   max-width: 1060px;
   margin: 0 auto;
 }
@@ -297,58 +299,57 @@ td {
   margin-top: 30px;
 }
 /* course description */
-.course-heading{
+.course-heading {
   text-align: center;
 }
-.course{
+.course {
   border: 2px solid #222222;
   background-color: #222222;
   display: inline-block;
   border-radius: 18px;
   margin-top: 55px;
 }
-.middle-course{
+.middle-course {
   margin: 55px 50px 0 50px;
 }
-.course-name{
+.course-name {
   padding: 30px 0px 10px 0px;
   text-align: center;
   font-size: 1.5rem;
   font-weight: 800;
-
 }
-.course-fee{
+.course-fee {
   font-size: 3rem;
   color: #e6533c;
-  padding: 0 80px  0px 80px ;
+  padding: 0 80px 0px 80px;
   font-weight: 800;
 }
-.single-class{
-  
+.single-class {
   padding: 0px 0px 30px 0px;
   text-align: center;
   font-size: 1.4rem;
   color: rgba(255, 255, 255, 0.5);
 }
-.course-item{
+.course-item {
   list-style: none;
-  padding: 10px 0 ;
+  padding: 10px 0;
   text-align: center;
 }
-.btn-enroll{
+.btn-enroll {
   margin-top: 40px;
 }
-.fee-plan-des{
+.fee-plan-des {
   margin: 15px 120px;
 }
 /* Trainer section */
-.trainer-heading,.trainer-des{
+.trainer-heading,
+.trainer-des {
   text-align: center;
   margin: 10px 0;
 }
-.trainer-imgs{
+.trainer-imgs {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   border: 2px solid #222222;
   border-radius: 18px;
   background-color: #222222;
@@ -356,22 +357,77 @@ td {
   margin: auto;
   gap: 17px;
 }
-.trainer-img{
+.trainer-img {
   width: 100%;
   border-radius: 18px;
 }
-.trainer-name{
+.trainer-name {
   font-size: 20px;
   font-weight: 800;
   margin-top: -55px;
   margin-left: 15px;
 }
-.trainer-position{
+.trainer-position {
   margin-left: 15px;
 }
-
-
-
+/* footer */
+.Fitness-footer {
+  font-size: 3.375rem;
+  font-weight: bolder;
+  font-style: italic;
+  color: #e6533c;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+footer {
+  background-color: #222222;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.footer-des{
+  max-width: 400px;
+}
+.footer-heading{
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  padding-top: 60px;
+  padding-left: 130px;
+  padding-bottom: 30px;
+}
+.fh-2{
+  padding-left:175px ;
+}
+.footer-list1{
+  list-style: none;
+  color: rgba(255, 255, 255, 0.5);
+  padding-left: 130px;
+  margin-bottom: 80px;
+}
+.footer-list2{
+  list-style: none;
+  color: rgba(255, 255, 255, 0.5);
+  padding-left: 175px;
+  margin-bottom: 80px;
+}
+.footer-items,.footer-items1{
+  margin: 20px 0 ;
+  font-size: 20px;
+}
+.footer-anchor{
+  text-decoration: none;
+  color:rgba(255, 255, 255, 0.5); ;
+}
+.footer-items1{
+  margin-top: 10px;
+}
+.hr{
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.ending-point{
+  text-align: center;
+  padding: 25px 0;
+}
 
 @media screen and (max-width: 576px) {
   * {
@@ -550,60 +606,89 @@ td {
     margin-left: 10px;
   }
   /* course details */
-  .courses{
+  .courses {
     flex-direction: column;
     margin-bottom: 150px;
-
   }
-  .middle-course,.course{
+  .middle-course,
+  .course {
     margin: 0;
     margin-top: 50px;
   }
-  .fee-plane-heading{
+  .fee-plane-heading {
     text-align: left;
-    font-size:28px;
+    font-size: 28px;
     margin-left: 0;
     margin-top: 10px;
     margin-bottom: -15px;
   }
-  .fee-plan-des{
+  .fee-plan-des {
     margin: 30px 0;
     margin-right: 18px;
     text-align: left;
   }
-  .course-fee{
+  .course-fee {
     text-align: center;
     padding-left: 80px;
     margin-top: 20px;
   }
-  .btn-enroll{
+  .btn-enroll {
     margin-left: 56px;
     margin-bottom: 40px;
   }
-  .trainer-imgs{
-    grid-template-columns: repeat(1,1fr);
+  .trainer-imgs {
+    grid-template-columns: repeat(1, 1fr);
     margin: auto;
     padding-left: 0px;
     padding-top: 4px;
     padding-bottom: 20px;
-
   }
-  .img-3{
+  .img-3 {
     margin-top: 13px;
   }
-  .img-5{
+  .img-5 {
     margin-top: -5px;
   }
-  .img-6{
+  .img-6 {
     margin-top: 13px;
   }
   .img-4,
   .img-1,
-  .trainer-none{
+  .trainer-none {
     display: none;
   }
-  
-  .trainer-position,.trainer-name{
+
+  .trainer-position,
+  .trainer-name {
     margin-left: 25px;
+  }
+  /* footer */
+  .footer1{
+    flex-direction: column;
+  }
+  footer{
+    width: 425px;
+    margin-left: -20px;
+  }
+  .footer-heading,.footer-list1,.footer-list2{
+    padding-left: 0;
+  }
+  .footer-heading{
+    padding-top: 10px;
+  }
+  .fh-1{
+    margin-top: 50px;
+  }
+  .fh-2{
+    margin-top: -20px;
+  }
+  .hr{
+    margin: 0 30px;
+  }
+  .ending-point{
+    padding: 40px 0;
+  }
+  .footer-items1{
+    margin-top: 0;
   }
 }
