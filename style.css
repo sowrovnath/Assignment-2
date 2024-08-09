@@ -8,9 +8,8 @@ body {
   background-color: black;
   color: white;
 }
-.p-color{
+.p-color {
   background-color: black;
-  
 }
 /* shared style */
 .display-flex {
@@ -43,8 +42,22 @@ hr {
   margin: 0 auto;
 }
 /* header */
-header{
-  background-image: linear-gradient(to bottom, #000000, #0a0a0a, #121212, #181818, #1d1d1d, #1d1d1d, #1d1d1d, #1d1d1d, #181818, #121212, #0a0a0a, #000000);
+header {
+  background-image: linear-gradient(
+    to bottom,
+    #000000,
+    #0a0a0a,
+    #121212,
+    #181818,
+    #1d1d1d,
+    #1d1d1d,
+    #1d1d1d,
+    #1d1d1d,
+    #181818,
+    #121212,
+    #0a0a0a,
+    #000000
+  );
 }
 .header-nav {
   align-items: center;
@@ -282,12 +295,12 @@ td {
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
 }
-input,select{
+input,
+select {
   color: rgba(255, 255, 255, 0.5);
 }
 .form {
   padding: 13px 80px 13px 20px;
-
 }
 .form-sex {
   padding: 13px 204px 13px 20px;
@@ -394,10 +407,10 @@ footer {
   margin: 0 auto;
   margin-top: 100px;
 }
-.footer-des{
+.footer-des {
   max-width: 400px;
 }
-.footer-heading{
+.footer-heading {
   font-weight: bold;
   font-size: 30px;
   color: white;
@@ -405,36 +418,37 @@ footer {
   padding-left: 130px;
   padding-bottom: 30px;
 }
-.fh-2{
-  padding-left:175px ;
+.fh-2 {
+  padding-left: 175px;
 }
-.footer-list1{
+.footer-list1 {
   list-style: none;
   color: rgba(255, 255, 255, 0.5);
   padding-left: 130px;
   margin-bottom: 80px;
 }
-.footer-list2{
+.footer-list2 {
   list-style: none;
   color: rgba(255, 255, 255, 0.5);
   padding-left: 175px;
   margin-bottom: 80px;
 }
-.footer-items,.footer-items1{
-  margin: 20px 0 ;
+.footer-items,
+.footer-items1 {
+  margin: 20px 0;
   font-size: 20px;
 }
-.footer-anchor{
+.footer-anchor {
   text-decoration: none;
-  color:rgba(255, 255, 255, 0.5); ;
+  color: rgba(255, 255, 255, 0.5);
 }
-.footer-items1{
+.footer-items1 {
   margin-top: 10px;
 }
-.hr{
+.hr {
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
-.ending-point{
+.ending-point {
   text-align: center;
   padding: 25px 0;
 }
@@ -444,11 +458,13 @@ footer {
     margin-left: 10px;
     margin-right: 10px;
   }
-  header{
-    background-image: none;
+  header {
+    background: none;
   }
   /* responsive navbar */
-
+  nav {
+    padding-top: 35px;
+  }
   .hamburger-icon {
     display: block;
   }
@@ -464,6 +480,7 @@ footer {
     font-size: 36px;
     margin-left: 100px;
     line-height: 3rem;
+    margin-top: 50px;
   }
   .miama {
     font-size: 50px;
@@ -585,7 +602,6 @@ footer {
   }
   .bmi-des {
     margin: 14px 0px 60px 0px;
-    
   }
   .bmi-calculate {
     width: 330px;
@@ -651,11 +667,11 @@ footer {
   .btn-enroll {
     margin-left: 56px;
     margin-bottom: 40px;
-    padding: 20px 67px ;
+    padding: 20px 67px;
   }
-  
-  .trainer-text{
-    margin-top: 200px ;
+
+  .trainer-text {
+    margin-top: 200px;
     margin-bottom: 50px;
   }
   .trainer-imgs {
@@ -665,7 +681,7 @@ footer {
     padding-top: 4px;
     padding-bottom: 20px;
   }
-  .img-5{
+  .img-5 {
     margin-top: -20px;
   }
   .img-4,
@@ -679,32 +695,34 @@ footer {
     margin-left: 25px;
   }
   /* footer */
-  .footer1{
+  .footer1 {
     flex-direction: column;
   }
-  footer{
+  footer {
     width: 425px;
     margin-left: -20px;
   }
-  .footer-heading,.footer-list1,.footer-list2{
+  .footer-heading,
+  .footer-list1,
+  .footer-list2 {
     padding-left: 0;
   }
-  .footer-heading{
+  .footer-heading {
     padding-top: 10px;
   }
-  .fh-1{
+  .fh-1 {
     margin-top: 50px;
   }
-  .fh-2{
+  .fh-2 {
     margin-top: -20px;
   }
-  .hr{
+  .hr {
     margin: 0 30px;
   }
-  .ending-point{
+  .ending-point {
     padding: 40px 0;
   }
-  .footer-items1{
+  .footer-items1 {
     margin-top: 0;
   }
 }
